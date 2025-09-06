@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="product-section">
+      <h2>DESERTS</h2>
+      <div class="product-list"></div>
+    </div>
+
+    <div class="cart-popup">
+      <h2>Your Cart</h2>
+
+      <div class="empty-cart popup1">
+        <div class="empty-cart-image">
+          <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+        </div>
+        <span class="empty-message">Your item will appear here</span>
+      </div>
+
+      <div class="cart-content popup2">
+        <div class="cart-items only-detail">
+          <!-- items go here -->
+        </div>
+
+        <div class="cart-total totalamount">
+          <p>Order Total</p>
+          <h3></h3>
+        </div>
+
+        <div class="cart-buttons allbutton">
+          <div class="carbon-message button1">
+            <img src="./assets/images/icon-carbon-neutral.svg" alt="" />
+            This is carbon neutral delivery
+          </div>
+          <button class="confirm-order button2">Confirm Order</button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="total-bill-popup">
+    <div class="greentick"><img src="./assets/images/icon-order-confirmed.svg" alt=""></div>
+    <h2>Order Confirmed</h2>
+    <p>We hope you enjoyed your food</p>
+    <div class="bg">
+    <div class="realamount">
+     
+    </div>
+    </div>
+    <div class="ordertotal">
+      <p>ORDER TOTAL</p>
+      <h2></h2>
+    </div>
+<button class=" button3 star-new">Start New Order</button>
+
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
